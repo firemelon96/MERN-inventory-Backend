@@ -1,4 +1,4 @@
-const asyncHandler = require("express-async-Handler");
+const asyncHandler = require("express-async-handler");
 const Product = require("../models/productModel");
 const { fileSizeFormatter } = require("../utils/fileUpload");
 Product;
