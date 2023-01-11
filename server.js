@@ -19,7 +19,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: [
+      "http://localhost:3000",
+      "https://mern-inventory-frontend.vercel.app",
+    ],
     credentials: true,
   })
 );
